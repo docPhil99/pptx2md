@@ -94,7 +94,7 @@ def process_title(shape):
             print(text, ' transferred to ', res[0], '. the ratio is ', round(res[1]))
             out.put_title(res[0], g.titles[res[0]])
     else:
-        out.put_title(text, 1)
+        out.put_title(text, 2)
 
 
 def process_text_block(shape):

@@ -53,8 +53,13 @@ class md_outputter(outputter):
         self.ofile.write(text + '\n\n')
 
     def put_image(self, path, width):
-        self.ofile.write('<img src="%s" width=%spx />\n\n' % (path, width))
-    
+        #self.ofile.write('~ Figure {caption: image caption}\n')
+        if width > 400:
+            width = 400
+        self.ofile.write('![](%s){width=%spx}\n' % (path, width))
+        self.ofile.write('\n\n')
+
+
     def get_accent(self, text):
         return ' _' + text + '_ '
     

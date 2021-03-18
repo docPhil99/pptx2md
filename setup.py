@@ -7,7 +7,7 @@ setup(
     description = "convert pptx to markdown",
     long_description = "keeps the titles, formats including color, bold and italic, extracts the images",
     license = "MIT Licence",
-    url = "https://github.com/ssine/pptx2md",
+    url = "https://github.com/docPhill99/pptx2md",
     author = "Liu Siyao",
     author_email = "liu.siyao@qq.com",
     packages = ['pptx2md'],

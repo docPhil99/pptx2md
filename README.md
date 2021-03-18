@@ -1,6 +1,10 @@
 # PPTX2MD
 
-[![Downloads](https://pepy.tech/badge/pptx2md)](https://pepy.tech/project/pptx2md)
+Brach of pptx2md
+
+* Uses ![]() image formating
+* Uses level 2 heading by default.
+* Disables colour by default
 
 A tool to convert Powerpoint pptx file into markdown.
 
